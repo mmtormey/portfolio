@@ -60,6 +60,8 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  background-color: var(--light-blue);
 }
 
 .navigation__logo {
@@ -572,7 +574,7 @@ a {
 /* =========================
    CASE STUDY HEADER
    ========================= */
-
+/* 
 .case-study-header {
   background: var(--light-blue);
   color: var(--navy);
@@ -631,9 +633,85 @@ a {
   max-height: 50vh;
 
   object-fit: cover;
+  border-radius: 12px; */
+/* border: var(--navy) solid .5px; */
+/* background-color: var(--light-background);
+} */
+
+
+/* =========================
+   CASE STUDY HEADER
+   ========================= */
+
+.case-study-header {
+  position: relative;
+  isolation: isolate;
+
+  min-height: 90vh;
+  padding: 180px 48px 80px;
+  box-sizing: border-box;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+
+  color: var(--navy);
+}
+
+.case-study-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(126, 136, 150, 0.112);
+  z-index: -1;
+}
+
+.case-study-header__content {
+  max-width: var(--content-max-width);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.case-study-header__text {
+  max-width: 60vw;
+
+  padding: 40px 44px;
+  box-sizing: border-box;
+
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
   border-radius: 12px;
-  /* border: var(--navy) solid .5px; */
-  background-color: var(--light-background);
+}
+
+.case-study-header__category {
+  margin: 0 0 12px;
+
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.case-study-header__title {
+  margin: 0 0 24px;
+
+  font-size: clamp(2.75rem, 5vw, 5rem);
+  line-height: 0.98;
+  letter-spacing: -0.03em;
+}
+
+.case-study-header__description {
+  /* max-width: 480px; */
+
+  margin: 0;
+
+  font-size: 1rem;
+  line-height: 1.55;
 }
 
 .case-study-section {
@@ -996,6 +1074,7 @@ a {
   .case-study-steps__content,
   .case-study-gallery__content {
     margin: 0 auto;
+    width: 80vw;
   }
 }
 

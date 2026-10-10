@@ -1,3 +1,4 @@
+
 type CaseStudyHeaderProps = {
   category: string;
   title: string;
@@ -12,10 +13,11 @@ function CaseStudyHeader({
   heroImage,
 }: CaseStudyHeaderProps) {
   return (
-    <header className="case-study-header">
-
+    <header
+      className="case-study-header"
+      style={{ backgroundImage: `url("${heroImage}")` }}
+    >
       <div className="case-study-header__content">
-
         <div className="case-study-header__text">
           <p className="case-study-header__category">
             {category}
@@ -29,16 +31,7 @@ function CaseStudyHeader({
             {description}
           </p>
         </div>
-
-        <div className="case-study-header__image">
-          <img
-            src={heroImage}
-            alt=""
-          />
-        </div>
-
       </div>
-
     </header>
   );
 }
