@@ -665,7 +665,7 @@ a {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(126, 136, 150, 0.112);
+  background: rgba(126, 136, 150, 0.512);
   z-index: -1;
 }
 
@@ -676,14 +676,14 @@ a {
 }
 
 .case-study-header__text {
-  max-width: 60vw;
+  /* max-width: 60vw; */
 
   padding: 40px 44px;
   box-sizing: border-box;
 
   background: rgba(255, 255, 255, 0.72);
   backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+  /* -webkit-backdrop-filter: blur(6px); */
 
   border-radius: 12px;
 }
