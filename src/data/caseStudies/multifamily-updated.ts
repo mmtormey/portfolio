@@ -6,7 +6,7 @@ export const multifamily: CaseStudy = {
   title: 'Business Value Discovery',
   description:
     'Using Business Value Discovery to connect business drivers, data, and analytics solutions.',
-  heroImage: '/images/case-studies/multifamily/short-value-driver-map.svg',
+  heroImage: '/images/case-studies/multifamily/leasing-funnel-efficiency.png',
   sections: [
     {
       type: 'text',

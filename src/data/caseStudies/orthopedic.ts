@@ -11,7 +11,7 @@ export const physicianUtilization: CaseStudy = {
     'An orthopedic clinic network wanted better visibility into how physicians were utilizing their available appointment time. I worked to understand the different factors that contributed to physician utilization, define how utilization should be measured, and design an analytical experience that could help users identify why utilization was low—not just where it was low.',
 
   heroImage:
-    '/images/physician-utilization.jpg',
+    '/images/case-studies/orthopedic/utilization-overall-design.png',
 
   sections: [
     {

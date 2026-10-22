@@ -10,7 +10,7 @@ const inventoryLoss: CaseStudy = {
   description:
     "Understanding how inventory moves through the theater and identifying opportunities to improve loss prevention.",
 
-  heroImage: "/images/inventory-loss.jpg",
+  heroImage: "/images/case-studies/movie-theater/movie-theater-overall-solution.png",
 
   sections: [
     {
